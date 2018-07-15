@@ -40,7 +40,7 @@ public class Main {
 	
 	
 	for( Person p : list) {
-		sb.append(p.age).append(" ").append(p.name).append("\n");
+		sb.append(p.age+ " " + p.name + "\n");
 	}
 	System.out.println(sb.toString());
 }
