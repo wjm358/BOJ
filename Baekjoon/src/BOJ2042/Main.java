@@ -77,6 +77,7 @@ public class Main {
 	 */
 	public static long sum(int node, int start, int end, int left, int right) {
 		// [left, right]와 [start,end]가 겹치지 않을경우
+		//System.out.println(start + " " + end + " "+  left + " " + right);
 		if (left > end || right < start)
 			return 0;
 
